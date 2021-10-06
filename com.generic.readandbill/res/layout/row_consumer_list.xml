@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+<LinearLayout android:id="@id/clLinerLayout" 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:id="@id/tvAccountNumber" android:layout_width="110.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@id/tvAccountNumber" />
+    <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:id="@id/tvName" android:layout_width="160.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@id/tvName" />
+    <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:id="@id/tvAddress" android:layout_width="160.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@id/tvAddress" />
+    <TextView android:textSize="20.0sp" android:layout_gravity="center_vertical" android:id="@id/tvMeterSerial" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@id/tvMeterSerial" />
+    <TextView android:textSize="20.0sp" android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/tvKilowatthour" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@id/tvKilowatthour" />
+    <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/tvclFieldFinding" android:layout_width="160.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" />
+    <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/tvclRemarks" android:layout_width="160.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" />
+    
+</LinearLayout>
+-->
+
+<LinearLayout android:id="@id/clLinerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20sp" android:layout_gravity="center_vertical" android:id="@id/tvAccountNumber" android:layout_width="110dp" android:layout_height="fill_parent" android:layout_marginLeft="5dp"/> <!-- android:text="@id/tvAccountNumber" />  -->
+    <TextView android:textSize="20sp" android:layout_gravity="center_vertical" android:id="@id/tvName" android:layout_width="160dp" android:layout_height="fill_parent" android:layout_marginLeft="5dp" /> <!--  android:text="@id/tvName" />  -->
+    <TextView android:textSize="20sp" android:layout_gravity="center_vertical" android:id="@id/tvAddress" android:layout_width="160dp" android:layout_height="fill_parent" android:layout_marginLeft="5dp" /> <!--  android:text="@id/tvAddress" /> -->
+    <TextView android:textSize="20sp" android:layout_gravity="center_vertical" android:id="@id/tvMeterSerial" android:layout_width="80dp" android:layout_height="fill_parent" android:layout_marginLeft="5dp" /> <!--  android:text="@id/tvMeterSerial" /> -->
+    <TextView android:textSize="20sp" android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/tvKilowatthour" android:layout_width="80dp" android:layout_height="fill_parent" android:layout_marginLeft="5dp" /> <!--  android:text="@id/tvKilowatthour" /> -->
+    <TextView android:textSize="20sp" android:gravity="center" android:id="@id/tvclFieldFinding" android:layout_width="160dp" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" />
+    <TextView android:textSize="20sp" android:gravity="center" android:id="@id/tvclRemarks" android:layout_width="160dp" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" />
+</LinearLayout>

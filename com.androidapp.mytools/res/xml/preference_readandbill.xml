@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+   <com.generic.readandbill.BluetoothDevicePreference android:title="Bluetooth Device" android:key="bluetooth_mac" android:dialogTitle="Choose a default printer" />
+</PreferenceScreen>

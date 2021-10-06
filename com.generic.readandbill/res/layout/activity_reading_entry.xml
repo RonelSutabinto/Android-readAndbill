@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/btnLLholder" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:gravity="right" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:text="@string/account_number" />
+                <TextView android:textSize="20.0sp" android:id="@id/tvCIAccountNumber" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" />
+                <TextView android:textSize="20.0sp" android:layout_gravity="top|center" android:id="@id/tvCIRateCode" android:layout_width="20.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" />
+                <TextView android:textSize="20.0sp" android:layout_gravity="top|center" android:id="@id/tvCIMultiplier" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:gravity="right" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/name" />
+                <TextView android:textSize="20.0sp" android:id="@id/tvCIName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:gravity="top|right|center" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/address" />
+                <TextView android:textSize="20.0sp" android:id="@id/tvCIAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/trans_loss" android:layout_weight="1.0" />
+                <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/cm_kwhr" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvreTransLoss" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvreChangeMeter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="19.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:text="@string/kilowatthour" android:layout_weight="1.0" />
+                <TextView android:textSize="19.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:text="@string/kilowattUsed" android:layout_weight="1.0" />
+                <TextView android:textSize="17.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:text="@string/totalbill" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvREKilowatthour" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvREKilowatthUsed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvRETotalBill" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0sp" android:gravity="right" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/feedbackcode" />
+                <EditText android:textSize="20.0sp" android:gravity="right" android:id="@id/etREFeedbackcode" android:nextFocusDown="@id/etREReading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:maxLength="1" android:autoText="false" android:editable="false" android:inputType="textCapWords" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="19.0sp" android:gravity="right" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/reading" />
+                <EditText android:textSize="20.0sp" android:gravity="right" android:id="@id/etREReading" android:nextFocusDown="@id/etreDemandReading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:inputType="numberDecimal">
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/tvreDemadMult" android:layout_weight="1.0" />
+                <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/tvreDemandReading" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvreDemandMult" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" />
+                <EditText android:textSize="20.0sp" android:gravity="right" android:id="@id/etreDemandReading" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" android:inputType="numberDecimal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="19.0sp" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/fieldfindingcode" />
+                <EditText android:textSize="20.0sp" android:gravity="right" android:id="@id/etFFEFieldFindingsCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:maxLength="2" android:inputType="textCapCharacters" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="19.0sp" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/fieldfinding" />
+                <Spinner android:textSize="20.0sp" android:gravity="right" android:id="@id/spnFieldFindings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="17.0sp" android:gravity="top|right|center" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/remarks" />
+                <EditText android:textSize="20.0sp" android:gravity="right" android:id="@id/tvRERemarks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:inputType="text" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+    <LinearLayout android:orientation="horizontal" android:id="@id/btnLLholder" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" >
+        <Button android:textSize="15.0sp" android:id="@id/brConfirm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/btnconfirm" android:layout_weight="0.3"  />
+        <Button android:textSize="15.0sp" android:id="@id/brConfirmAndPrint" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/btnconfirmandprint" android:layout_weight="0.3"  />
+        <Button android:textSize="15.0sp" android:id="@id/brCancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/btncancel" android:layout_weight="0.3"  />
+    </LinearLayout>
+</RelativeLayout>

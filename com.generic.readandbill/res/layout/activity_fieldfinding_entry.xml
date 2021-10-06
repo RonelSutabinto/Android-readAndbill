@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="7.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:gravity="right" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:text="@string/account_number" />
+            <TextView android:textSize="20.0sp" android:id="@id/tvCIAccountNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" />
+            <TextView android:textSize="20.0sp" android:layout_gravity="top|center" android:id="@id/tvCIRateCode" android:layout_width="20.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" />
+            <TextView android:textSize="20.0sp" android:layout_gravity="top|center" android:id="@id/tvCIMultiplier" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:gravity="right" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/name" />
+            <TextView android:textSize="20.0sp" android:id="@id/tvCIName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:gravity="top|right|center" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/address" />
+            <TextView android:textSize="20.0sp" android:id="@id/tvCIAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/trans_loss" android:layout_weight="1.0" />
+            <TextView android:textSize="20.0sp" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/cm_kwhr" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvreTransLoss" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvreChangeMeter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:gravity="top|right|center" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/initialreading" />
+            <TextView android:textSize="20.0sp" android:gravity="right" android:id="@id/tvCIInitialReading" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="19.0sp" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/fieldfindingcode" />
+            <EditText android:textSize="20.0sp" android:gravity="right" android:id="@id/etFFEFieldFindingsCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:maxLength="2" android:inputType="textCapCharacters" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="19.0sp" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/fieldfinding" />
+            <Spinner android:textSize="20.0sp" android:gravity="right" android:id="@id/spnFieldFindings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:gravity="top|right|center" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/remarks" />
+            <EditText android:textSize="20.0sp" android:gravity="right" android:id="@id/etFFERemarks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" >
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="20.0sp" android:id="@id/bfConfirm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/btnconfirm" android:layout_weight="0.5"  />
+            <Button android:textSize="20.0sp" android:id="@id/bfCancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/btncancel" android:layout_weight="0.5"  />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
